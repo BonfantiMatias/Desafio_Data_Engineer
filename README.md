@@ -34,7 +34,7 @@ Ejecutar los siguientes comandos para construir y correr la imagen de Docker:
 
     sudo docker compose up airflow-init
 
-    sudo docker-compose  up 
+    sudo docker compose up 
 
 Al terminar esperamos unos segundos para ingresar a airflow en en navegador web. La direccion es
 
