@@ -7,7 +7,7 @@ from procesar_csv import procesar_archivos_csv
 from datetime import datetime
 
 with DAG(
-    dag_id='first_sample_dag',
+    dag_id='dag_desafio',
     start_date=datetime(2023, 5, 5, 18, 0, 0), 
     schedule_interval='0 18 * * *',  # Ejecutar a las 18:00:00 todos los días
     catchup=True  #Ejecutar tareas antiguas
