@@ -24,7 +24,7 @@ Clonar el repositorio:
 
   
 
-Ejecutar el siguiente comando para construir y correr la imagen de Docker:
+Ejecutar los siguientes comandos para construir y correr la imagen de Docker:
 
   
 
@@ -32,7 +32,7 @@ Ejecutar el siguiente comando para construir y correr la imagen de Docker:
 
     echo -e "AIRFLOW_UID=$(id -u)" > .env
 
-    docker compose up airflow-init
+    sudo docker compose up airflow-init
 
     sudo docker-compose  up 
 
