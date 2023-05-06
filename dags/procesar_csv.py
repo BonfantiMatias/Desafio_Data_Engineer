@@ -5,7 +5,7 @@ import pandas as pd
 def procesar_archivos_csv():
     # Directorios de entrada y salida
     input_dir = '/opt/input'
-    output_dir = '/opt/output/'
+    output_dir = '/opt/output'
 
     # Iterar sobre los archivos CSV en la carpeta de entrada
     for filename in os.listdir(input_dir):
